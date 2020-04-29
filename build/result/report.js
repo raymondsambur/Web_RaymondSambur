@@ -70,7 +70,7 @@ formatter.match({
   "location": "demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNameOnResultPage(java.lang.String)"
 });
 formatter.result({
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Pickachu]\u003e but was:\u003c[#025]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNameOnResultPage(BulbapediaStepsDefinitions.java:40)\n\tat ✽.User Will see pokemon name \"Pickachu\" on result page(file:///Users/samburr/IdeaProjects/Web_RaymondSambur/src/test/resources/features/searchBulbapedia.feature:9)\n",
+  "error_message": "org.junit.ComparisonFailure: expected:\u003cPi[c]kachu\u003e but was:\u003cPi[]kachu\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNameOnResultPage(BulbapediaStepsDefinitions.java:40)\n\tat ✽.User Will see pokemon name \"Pickachu\" on result page(file:///Users/samburr/IdeaProjects/Web_RaymondSambur/src/test/resources/features/searchBulbapedia.feature:9)\n",
   "status": "failed"
 });
 formatter.after({
@@ -137,8 +137,7 @@ formatter.match({
   "location": "demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNameOnResultPage(java.lang.String)"
 });
 formatter.result({
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Psyduck]\u003e but was:\u003c[#054]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNameOnResultPage(BulbapediaStepsDefinitions.java:40)\n\tat ✽.User Will see pokemon name \"Psyduck\" on result page(file:///Users/samburr/IdeaProjects/Web_RaymondSambur/src/test/resources/features/searchBulbapedia.feature:16)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -204,8 +203,7 @@ formatter.match({
   "location": "demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNameOnResultPage(java.lang.String)"
 });
 formatter.result({
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Onix]\u003e but was:\u003c[#095]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNameOnResultPage(BulbapediaStepsDefinitions.java:40)\n\tat ✽.User Will see pokemon name \"Onix\" on result page(file:///Users/samburr/IdeaProjects/Web_RaymondSambur/src/test/resources/features/searchBulbapedia.feature:23)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"

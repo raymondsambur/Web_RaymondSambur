@@ -14,7 +14,7 @@ public class ResultPage {
     public String resultPageReturnName(){
 
         WebElement pokemonName = wait
-                .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//big//a/span")));
+                .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//big//b")));
         String pokemon = pokemonName.getText();
 
         return pokemon;
