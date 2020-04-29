@@ -14,14 +14,14 @@ public class ResultPage {
     public String resultPageReturnName(){
 
         WebElement pokemonName = wait
-                .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//td[@class='roundy']//table//tbody//tr//td//big//big//b[contains(text(),'Pickachu')]")));
+                .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//big//a/span")));
         String pokemon = pokemonName.getText();
 
         return pokemon;
     }
 
     public String resultPageReturnNumber(){
-        WebElement pokemonNumber = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[contains(text(),'#')]")));
+        WebElement pokemonNumber = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//table[@class='roundy']//a[@title='List of Pokémon by National Pokédex number']/span")));
         String pokemonNo = pokemonNumber.getText();
 
         return pokemonNo;

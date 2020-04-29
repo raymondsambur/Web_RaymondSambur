@@ -17,7 +17,7 @@ public class WebDriverInstance {
         driver = new ChromeDriver(options);
 
         //not working for macOS
-        options.addArguments("--incognito","--disable-extentions");
+//        options.addArguments("--incognito","--disable-extentions");
 
         //set platform to macOS
         options.setCapability(CapabilityType.PLATFORM_NAME, Platform.MAC);
