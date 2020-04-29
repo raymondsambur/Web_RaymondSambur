@@ -49,3 +49,165 @@ formatter.step({
 formatter.match({
   "location": "demo.steps.BulbapediaStepsDefinitions.userPressENTERKey()"
 });
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User will see pokemon number \"#025\" on result page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNumberOnResultPage(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User Will see pokemon name \"Pickachu\" on result page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNameOnResultPage(java.lang.String)"
+});
+formatter.result({
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Pickachu]\u003e but was:\u003c[#025]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNameOnResultPage(BulbapediaStepsDefinitions.java:40)\n\tat ✽.User Will see pokemon name \"Pickachu\" on result page(file:///Users/samburr/IdeaProjects/Web_RaymondSambur/src/test/resources/features/searchBulbapedia.feature:9)\n",
+  "status": "failed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Search Pysduck in list pokemon on bulbapedia site",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Web"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User is on home page of bulbapedia",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "demo.steps.BulbapediaStepsDefinitions.userIsOnHomePageOfBulbapedia()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User input \"Psyduck\" on search field",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "demo.steps.BulbapediaStepsDefinitions.userInputOnSearchField(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User press ENTER key",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "demo.steps.BulbapediaStepsDefinitions.userPressENTERKey()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User will see pokemon number \"#054\" on result page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNumberOnResultPage(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User Will see pokemon name \"Psyduck\" on result page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNameOnResultPage(java.lang.String)"
+});
+formatter.result({
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Psyduck]\u003e but was:\u003c[#054]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNameOnResultPage(BulbapediaStepsDefinitions.java:40)\n\tat ✽.User Will see pokemon name \"Psyduck\" on result page(file:///Users/samburr/IdeaProjects/Web_RaymondSambur/src/test/resources/features/searchBulbapedia.feature:16)\n",
+  "status": "failed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Search Pikachu in list pokemon on bulbapedia site",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Web"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User is on home page of bulbapedia",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "demo.steps.BulbapediaStepsDefinitions.userIsOnHomePageOfBulbapedia()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User input \"Onix\" on search field",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "demo.steps.BulbapediaStepsDefinitions.userInputOnSearchField(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User press ENTER key",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "demo.steps.BulbapediaStepsDefinitions.userPressENTERKey()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User will see pokemon number \"#095\" on result page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNumberOnResultPage(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User Will see pokemon name \"Onix\" on result page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNameOnResultPage(java.lang.String)"
+});
+formatter.result({
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Onix]\u003e but was:\u003c[#095]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNameOnResultPage(BulbapediaStepsDefinitions.java:40)\n\tat ✽.User Will see pokemon name \"Onix\" on result page(file:///Users/samburr/IdeaProjects/Web_RaymondSambur/src/test/resources/features/searchBulbapedia.feature:23)\n",
+  "status": "failed"
+});
+formatter.after({
+  "status": "passed"
+});
+});

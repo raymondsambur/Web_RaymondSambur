@@ -36,6 +36,7 @@ public class BulbapediaStepsDefinitions {
     @Then("User Will see pokemon name {string} on result page")
     public void userWillSeePokemonNameOnResultPage(String name) {
         String pokemonName = resultPage.resultPageReturnName();
+        System.out.println(name + " " + pokemonName);
         Assert.assertEquals(name, pokemonName);
     }
 }
