@@ -33,7 +33,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User input \"Pikachu\" on search field",
+  "name": "User input \"Meowth\" on search field",
   "keyword": "When "
 });
 formatter.match({
@@ -53,7 +53,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User will see pokemon number \"#025\" on result page",
+  "name": "User will see pokemon number \"#052\" on result page",
   "keyword": "Then "
 });
 formatter.match({
@@ -63,15 +63,14 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User Will see pokemon name \"Pickachu\" on result page",
-  "keyword": "Then "
+  "name": "User Will see pokemon name \"Meowth\" on result page",
+  "keyword": "And "
 });
 formatter.match({
   "location": "demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNameOnResultPage(java.lang.String)"
 });
 formatter.result({
-  "error_message": "org.junit.ComparisonFailure: expected:\u003cPi[c]kachu\u003e but was:\u003cPi[]kachu\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNameOnResultPage(BulbapediaStepsDefinitions.java:40)\n\tat ✽.User Will see pokemon name \"Pickachu\" on result page(file:///Users/samburr/IdeaProjects/Web_RaymondSambur/src/test/resources/features/searchBulbapedia.feature:9)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -131,7 +130,7 @@ formatter.result({
 });
 formatter.step({
   "name": "User Will see pokemon name \"Psyduck\" on result page",
-  "keyword": "Then "
+  "keyword": "And "
 });
 formatter.match({
   "location": "demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNameOnResultPage(java.lang.String)"
@@ -197,7 +196,7 @@ formatter.result({
 });
 formatter.step({
   "name": "User Will see pokemon name \"Onix\" on result page",
-  "keyword": "Then "
+  "keyword": "And "
 });
 formatter.match({
   "location": "demo.steps.BulbapediaStepsDefinitions.userWillSeePokemonNameOnResultPage(java.lang.String)"
